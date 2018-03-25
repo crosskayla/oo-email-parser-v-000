@@ -13,5 +13,5 @@ class EmailParser
 
   def parse
     @email_string.strip.split(/\s+\-/)
-
+  end
 end
